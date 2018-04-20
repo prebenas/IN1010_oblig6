@@ -39,6 +39,7 @@ public class Telegrafist implements Runnable{
          }
         Thread.sleep(1);
       } while( kryptertString != null );
+      System.out.println("Avslutter telegrafist på kanal:" + kanalId);
     }
     catch(InterruptedException e){}
 

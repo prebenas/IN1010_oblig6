@@ -43,6 +43,7 @@ public class Kryptograf implements Runnable{
         }
         Thread.sleep(1);
       } while(uferdigeKanaler > 0);
+      System.out.println("Avslutter kryptograf");
     }
     catch(InterruptedException e){}
 

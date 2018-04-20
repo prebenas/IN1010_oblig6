@@ -1,0 +1,3 @@
+class operasjonsleder implements Runnable{
+  
+}
